@@ -1,0 +1,21 @@
+#file-list {padding: 10px 5px; font-size: 14px; max-height: 400px; overflow: auto; margin-top: 10px;}
+#file-list table {min-width: 605px;}
+#file-list td {border-bottom:1px solid #888888; padding:5px; vertical-align:top;}
+#file-list th {padding: 5px 10px 10px;}
+
+
+#artist-list {margin-top: 10px; font-size: 15px;}
+#artist-list li {color:#444; cursor:pointer; display:inline; line-height:200%; padding:4px;}
+#artist-list li:hover {background: #555; color: #eee; -moz-border-radius: 4px; -webkit-border-radis: 4px;}
+
+.applied-file {background: #B8FCBB; border: 1px solid #aaa;}
+.desc-w {min-width: 200px;}
+
+.overlay {position: fixed; background: #EAF4FF; border: 2px solid #0C9BAB; width: 630px; padding: 15px; position: absolute; -moz-border-radius: 5px; -webkit-border-radius: 5px; display: none;}
+#purch-info table {width: 100%;}
+#purch-info td {padding: 4px;}
+#purch-info #terms {background: #fff; border: 1px solid #444; max-height: 200px; overflow: auto; padding: 2px;}
+
+#popular img {margin: 0 15px; cursor: pointer;}
+#popular img:hover {border: 1px solid #99f;}
+

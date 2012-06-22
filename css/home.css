@@ -1,0 +1,9 @@
+#poll-area {padding: 10px 5px;}
+#poll-edit {background: #EAF4FF; border: 1px solid #0C9BAB; min-height: 400px; width: 300px; position: fixed; display: none; padding: 10px;}
+#answers {background: #fff; border: 1px solid #aaa; padding: 5px;}
+#answers input {width: 200px;}
+#poll-list {background:#FFFFFF; border:1px solid #AAAAAA; margin-top:10px; padding:5px;max-height:205px;overflow:auto;}
+#poll-results {margin: 10px 0;}
+.results {line-height: 140%;}
+.bar {margin: 3px 0; background: #0066cc;height: 12px;}
+.quest {font-style: italic;}

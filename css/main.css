@@ -1,0 +1,63 @@
+/* css hacks and fixes */
+a img {border:none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+h1 {font-size: 33px;}
+h2 {font-size: 29px;}
+h3 {font-size: 25px;}
+h4 {font-size: 21px;}
+h5 {font-size: 17px;}
+h6 {font-size: 13px;}
+
+.lt {float: left;}
+.rt {float: right;}
+.clr {clear: both; float: none !important; width: 0px; height: 0px; content: " ";}
+.ptr {cursor: pointer;}
+.hid {display: none;}
+.brd {-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+.bc {-webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-border-radius-bottomright: 10px; -moz-border-radius-bottomleft: 10px;}
+.tc {-moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px;}
+td {padding: 3px;}
+
+input, textarea, select {padding: 3px; font-size: 13px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-family: Verdana; background: #fafafa; border: 1px solid #aaa; color: #444;}
+input:focus, textarea:focus {background-color: #fff !important; border: #3599ed 1px solid; color: #222;}
+select {padding: 2px;}
+.btn {padding: 4px 6px; cursor: pointer; background: #eee; border: solid 1px #aaa; color: #666; font-size: 12px; -moz-border-radius: 5px; -webkit-border-radius :5px; font-family: Verdana;}
+.btn:hover {background: #A4F88C; color: #333; border: solid 1px #128205;}
+.lnk:hover {cursor: pointer; border-bottom: 1px dotted;}
+
+/* popups */
+#infoDiv {position: fixed; top: 0px; left: 30px; width: 200px; padding: 8px;  border: solid 2px #57caff; border-top: none; text-align: center; font-size: 18px; background-color: #6DF4FA; opacity: 0.7}
+#loader {position: fixed; top: 5px; left: 5px;}
+
+/* general common stuff */
+body {font-family: Calibri, Arial, sans-serif; font-size: 15px; color: #222; background: #DEDEDE;}
+#canvas {width: 960px; margin: 0 auto; background: #fff; border: 1px solid #aaa;}
+#header {border-bottom:1px solid #113465; height: 100px; background: #2056A4 url(i/head-bot.png) repeat-x scroll bottom;}
+#footer {height: 50px;}
+
+/* header */
+#header input {width: 100px;}
+#header #loginArea {width: 200px; float: right; padding: 5px; color: #eee; font-size: 14px;}
+
+#loginDlg {width: 210px; padding: 10px; background-color: #DFFDFA; border: #59b3ff solid 2px; opacity: 0.93; position: fixed; line-height: 120%;}
+#loginDlg input {width: 200px; font-weight: bold; margin-bottom: 5px;}
+#captchaDiv {left:-330px; position:absolute; top:30px;}
+
+/* navigation tabs */
+#navigation {height: 30px; background: url(i/nav-bg.png) repeat-x;}
+.tab {width: 100px; text-align: center; float: left; cursor: pointer; color: #ccc; margin-top:7px;} 
+.tab:hover {color: #fff;}
+.tab .act {font-weight: bold;}
+#searchBox {float: right;}
+#searchBox input {height:17px; position:relative; top:-3px; width:182px; background-color: #bbb;}
+#searchBox img {left:-6px; position:relative; top:4px; cursor: pointer;}
+
+/* every page */
+.section {border:1px solid #AAAAAA; margin:20px 0; padding:10px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+.section h5 {border-bottom:1px solid; font-size:15px; padding-bottom:5px;}
+
+/* home and music */
+#left-column {float: left; width: 235px; margin-left: 20px;}
+#central-column {float: left; width: 650px; margin-left: 25px;}

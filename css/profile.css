@@ -1,0 +1,8 @@
+#navigation2 {padding: 5px; margin-left: 20px;}
+#profileColumn {margin: 0 auto; width:800px;}
+#area {border:1px solid #AAAAAA; margin:30px auto; padding:15px; width:600px;}
+#area table {width: 100%;}
+#area td {padding: 5px;}
+#area tr.active {background: #B8FCBB !important;}
+#area tr.headings {background: #fff !important;}
+#area th {padding: 5px; text-align: left;}
